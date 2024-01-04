@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jeopardy-Second-Round</title>
+  <link href="../styles/game-rounds.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="header-div">
+    <header>
+      <h1>First Round</h1>
+    </header>
+  </div>
+
+  <div id="player-turn">
+    <h2>Player Turn</h2>
+  </div>
+
+  <div id="game-board">
+    <!-- Headers -->
+    <span class="header"><strong>Category</strong></span>
+    <span class="header"><strong>Category</strong></span>
+    <span class="header"><strong>Category</strong></span>
+    <span class="header"><strong>Category</strong></span>
+    <span class="header"><strong>Category</strong></span>
+    <span class="header"><strong>Category</strong></span>
+
+    <!-- row1 -->
+    <span class="question">100</span>
+    <span class="question">100</span>
+    <span class="question">100</span>
+    <span class="question">100</span>
+    <span class="question">100</span>
+    <span class="question">100</span>
+
+    <!-- row2 -->
+    <span class="question">200</span>
+    <span class="question">200</span>
+    <span class="question">200</span>
+    <span class="question">200</span>
+    <span class="question">200</span>
+    <span class="question">200</span>
+
+    <!-- row3 -->
+    <span class="question">300</span>
+    <span class="question">300</span>
+    <span class="question">300</span>
+    <span class="question">300</span>
+    <span class="question">300</span>
+    <span class="question">300</span>
+
+    <!-- row4 -->
+    <span class="question">400</span>
+    <span class="question">400</span>
+    <span class="question">400</span>
+    <span class="question">400</span>
+    <span class="question">400</span>
+    <span class="question">400</span>
+
+    <!-- row5 -->
+    <span class="question">500</span>
+    <span class="question">500</span>
+    <span class="question" id="daily-double">500</span>
+    <span class="question">500</span>
+    <span class="question">500</span>
+    <span class="question">500</span>
+  </div>
+
+  <div id="controls">
+    <input id="user-input" type="text" name="answer" value="User Input...">
+    <button id="guess-btn" onclick="location.href = 'www.youtube.com';" type="button" id="guess-button">Guess</button>
+    <button id="pass-btn" onclick="location.href = 'www.youtube.com';" type="button" id="pass-button">Pass</button>
+  </div>
+
+  <div id="scores">
+    <div id="player-1">Player 1 Score: 0</div>
+    <div id="player-2">Player 2 Score: 0</div>
+  </div>
+
+  <div id='next-round-grid'>
+      <button id="next-round-btn" onclick="location.href = 'round-2.html';" type="button">Next Round</button>
+  </div>
+
+  <div id="footer">
+    <footer>
+      <h2>Footer Site Information</h2>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

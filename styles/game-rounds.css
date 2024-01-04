@@ -1,0 +1,115 @@
+body {
+  background-image: url("https://www.youthdownloads.com//triviamaker/wp-content/themes/stratusx-child/template/upload/0oBm0BL75xR47F6USxG7RumvHLv2/20210121161127278068995/566bg.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+#header-div,
+#player-turn {
+  text-align: center;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+}
+
+#game-board > span {
+  border: 2px solid black;
+  padding: 4px;
+}
+
+#game-board .header {
+  background-color: #9c9c9c;
+}
+
+#controls {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 2;
+}
+
+#user-input {
+  color: grey;
+  font-size: 15px;
+  padding: 15px 32px;
+  grid-column: 4 / span 3;
+}
+
+#guess-btn,
+#pass-btn {
+  margin-top: 10px;
+  grid-row: 2;
+}
+
+#guess-btn {
+  grid-column: 4;
+}
+
+#pass-btn {
+  grid-column: 6;
+}
+
+#scores {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 3;
+}
+
+#player-1 {
+  grid-column: 1;
+  text-align: center;
+}
+
+#player-2 {
+  grid-column: 3;
+  text-align: center;
+}
+
+#next-round-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+
+#next-round-btn {
+  grid-column: 4 / span 3;
+  text-align: center;
+  overflow: hidden;
+}
+
+#next-round-btn,
+#guess-btn,
+#pass-btn {
+  background-color: #800080;
+  border: none;
+  color: #ffa500;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#next-round-btn:hover, #guess-btn:hover, #pass-btn:hover {
+  background-color: #ffa500;
+  color: #800080;
+}
+
+.question:hover {
+  background-color: lightcoral;
+}
+
+#daily-double:hover {
+  background-color: lightgreen;
+}
+
+#footer {
+  margin: 2rem auto;
+  width: 90%;
+  border: 3px solid #ffa500;
+  padding: 10px;
+  text-align: center;
+}
